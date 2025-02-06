@@ -175,7 +175,7 @@ const forgotPassword = () => {
     border: 1px solid transparent;
     font-size: medium;
     cursor: pointer;
-    transition: background-color 0.5s ease, border 0.5s ease;
+    transition: background-color 0.2s ease, border 0.5s ease;
     color: white;
     background-color: rgb(0, 105, 175);
 }
@@ -189,6 +189,11 @@ const forgotPassword = () => {
     font-size: small;
     align-self: flex-end;
     color: rgb(10, 87, 0);
+    transition: color 0.2s ease;
+}
+
+.sign-up:hover{
+    color: rgb(3, 29, 0);
     cursor: pointer;
 }
 </style>
